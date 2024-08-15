@@ -100,7 +100,6 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"           // 注入指令
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"           // 煎蛋网无聊图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jptingroom"       // 日语听力学习材料
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/kfccrazythursday" // 疯狂星期四
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/lolicon"          // lolicon 随机图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/lolimi"           // 桑帛云 API
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/magicprompt"      // magicprompt吟唱提示
@@ -129,7 +128,6 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"         // 来份涩图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao"          // 沙雕app
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shindan"          // 测定
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/steam"            // steam相关
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tarot"            // 抽塔罗牌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tiangou"          // 舔狗日记
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tracemoe"         // 搜番
@@ -138,12 +136,8 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wallet"           // 钱包
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wantquotes"       // 据意查句
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/warframeapi"      // warframeAPI插件
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wenxinvilg"       // 百度文心AI画图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wife"             // 抽老婆
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordcount"        // 聊天热词
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"           // 猜单词
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"              // 游戏王相关插件
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"            // 月幕galgame
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/yujn"             // 遇见API
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
@@ -219,7 +213,7 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana := flag.String("n", "椛椛", "Set default nickname.")
+	adana := flag.String("n", "兔兔", "Set default nickname.")
 	prefix := flag.String("p", "/", "Set command prefix.")
 	runcfg := flag.String("c", "", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
