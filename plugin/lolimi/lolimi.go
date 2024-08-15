@@ -20,11 +20,11 @@ import (
 
 const (
 	lolimiURL = "https://api.lolimi.cn"
-	raoURL    = lolimiURL + "/API/rao/api.php"
-	yanURL    = lolimiURL + "/API/yan/?url=%v"
-	xjjURL    = lolimiURL + "/API/tup/xjj.php"
-	qingURL   = lolimiURL + "/API/qing/api.php"
-	fabingURL = lolimiURL + "/API/fabing/fb.php?name=%v"
+	raoURL    = lolimiURL + "/api/mmai/mm?key=XdtnA3MgIqbkRKmUGMXKj4Mq16&msg=%v"
+	yanURL    = lolimiURL + "/api/mmai/mm?key=XdtnA3MgIqbkRKmUGMXKj4Mq16&msg=%v"
+	xjjURL    = lolimiURL + "/api/mmai/mm?key=XdtnA3MgIqbkRKmUGMXKj4Mq16&msg=%v"
+	qingURL   = lolimiURL + "/api/mmai/mm?key=XdtnA3MgIqbkRKmUGMXKj4Mq16&msg=%v"
+	fabingURL = lolimiURL + "/api/mmai/mm?key=XdtnA3MgIqbkRKmUGMXKj4Mq16&msg=%v"
 )
 
 var (
